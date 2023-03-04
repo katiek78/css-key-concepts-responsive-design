@@ -22,11 +22,15 @@ nav li {
 }
 
 h1 {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 0.75rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card-container {
@@ -37,6 +41,7 @@ p {
 .card {
     padding: 10px;
     margin: 10px;
+    width: 270px;
 }
 
 img {
@@ -59,21 +64,21 @@ img {
 
 @media only screen and (min-width: 700px) {
     h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
     
     p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     } 
 }
 
 @media only screen and (min-width: 1000px) {
     h1 {
-        font-size: 3.25rem;
+        font-size: 2.75rem;
     }
     
     p {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     } 
 }
   
